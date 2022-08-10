@@ -1,0 +1,46 @@
+.footer
+    min-height: 630px
+    position: relative
+    &__info
+        position: absolute
+        top: 0
+        left: 50%
+        transform: translateX(-50%)
+        width: 460px
+        height: 270px
+        background-color: $main-color
+        padding: 50px 68px 60px 68px
+    &__adr
+        margin-bottom: 36px
+        font-size: 20px
+        font-weight: 500
+        color: #fffff
+        text-align: center
+    &__phone
+        font-size: 20px
+        font-weight: 700
+        color: #ffffff
+        display: block
+        text-align: center
+        text-decoration: none
+        margin-bottom: 38px
+        &:hover
+            color: white
+    &__social-item
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 50px
+        height: 50px
+        border: 2px solid #ffffff
+        border-radius: 100%
+        margin: 0 30px
+        transition: 0.5s all
+        &:hover
+            box-shadow: 5px 5px 30px black
+        img
+            height: 27px
+    &__social
+        display: flex
+        justify-content: space-between
+        align-items: center
